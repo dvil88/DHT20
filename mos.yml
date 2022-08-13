@@ -1,0 +1,17 @@
+author: dvil88
+description: DHT20 Temperature and Humidity Sensor Driver
+version: 1.0
+
+includes:
+  - include
+
+sources:
+  - src
+  
+tags:
+  - docs:drivers:DHT20 sensor
+
+libs:
+  - location: https://github.com/mongoose-os-libs/i2c
+
+manifest_version: 2017-09-29
